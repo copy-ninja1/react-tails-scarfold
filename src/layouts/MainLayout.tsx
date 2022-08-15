@@ -9,7 +9,7 @@ function MainLayout(): JSX.Element {
 
   return (
     <>
-      <Header isLogedIn={pathname !== '/'} />
+      <Header isLogedIn={false} />
       <div className="container">
         <AnimatableOutlet />
       </div>
